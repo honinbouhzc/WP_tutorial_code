@@ -1,0 +1,212 @@
+/*  
+Theme Name: Tutorial
+Theme URI: http://www.wpdesigner.com\
+Description: This is my theme for a tutorial.
+Version: 1.0
+Author: Small Potato
+Author URI: http://www.wpdesigner.com/
+*/
+
+body, h1, h2, h3, h4, h5, h6, blockquote, p{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-family: Georgia, Sans-serif;
+	font-size: 24px;
+	padding: 0 0 10px 0;
+}
+
+body{
+	margin:0;
+	font-family: Arial, Helvetica, Georgia,Sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+	background-color: #fff;
+	color:#000;
+}
+
+a:link, a:visited{
+	text-decoration: underline;
+	color:#336699;
+}
+
+a:hover{
+	text-decoration: none;
+	<strong>color:#f00;</strong>
+}
+
+p{
+	padding: 10px 0 0 0;
+}
+
+#wrapper{
+	margin: 0 auto 0 auto;
+	width:750px;
+	text-align:left;
+}
+
+#header{
+	float: left;
+	width: 750px;
+}
+
+#container{
+	float:left;
+	width: 500px;
+}
+
+.post{
+	padding: 10px 0 10px 0;
+}
+
+.post h2{
+	font-family: Georgia, Sans-serif;
+	line-height: 18px;
+}
+
+.entry{
+	line-height: 18px;
+}
+
+p.postmetadata{
+	border-top: 1px solid #ccc;
+	margin: 10px 0 0 0;
+}
+
+.navigation{
+	padding: 10px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+#sidebar{
+	float: left;
+	width: 240px;
+	background-color: #eee;
+	margin:0 0 0 10px;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0 10px 0 10px;
+}
+
+#sidebar ul li{
+	padding: 10px 0 10px 0;
+}
+
+#sidebar ul li h2{
+	font-family: Georgia, Sans-serif;
+	font-size: 14px;
+}
+
+#sidebar ul ul li{
+	padding: 0;
+	line-height: 24px;
+}
+
+table#wp-calendar{
+	width: 100%;
+}
+
+#footer{
+	clear: both;
+	float: left;
+	width: 750px;
+	padding-top:10px;
+}
+
+#footer p {
+	line-height: 18px;
+}
+/*
+第一行显而易见就是主题的名字。
+第二行是这个主题的地址，如果你的主题只是私用的而不准备发布的话，那就不用管它了。
+第三行是主题的描述。
+第四行是版本号，这是非常重要的，特别是当你公开发布你主题新版本的时候。
+第五和第六行分别是主题作者的名字和主页。
+*/
+/*margin: 0; 处理 body 标签的默认的页边空白，如果你要页边空白或者更大的页面空白，把 0 改成 10px，20px 或者其他。PX 意思是像素。每个像素使你电脑屏幕的一个点。当你的页边空白是 0 的话，就不需要后面跟上 px。*/
+/*font-family: Arial, Helvetica, Georgia, Sans-serif; 为你的网页或者网站选择使用哪种字体。这些字体中的第一个，Arial 是可替换的，如果你的用户没有在他们的电脑上安装 Arial 这种字体，style.css 文件就会寻找 Helvetica，然后是 Georgia，再接着是 Sans-serif。你可以在字体文件夹（我的电脑 > 系统盘 > Windows下面）找到你的字体列表。*/
+/*vertical-align: top; 使得所有的东西从上面开始。如果是中部或底部排行你的 body 标签，所有东西将会向下推。*/
+/*margin: 0 auto 0 auto; 意思是（注意顺序）：0上页边空白，自动右页面空白，0下页边空白和自动左页面空白。从现在开始，记得设置左右页边空白为自动将使得居中对齐*/
+/*line-height: 18px;:把行高增加到18像素*/
+
+
+
+.comments-template{
+
+	margin: 10px 0 0;
+
+	border-top: 1px solid #ccc;
+
+	padding: 10px 0 0;
+
+}
+
+
+
+.comments-template ol{
+
+	margin: 0;
+
+	padding: 0 0 15px;
+
+	list-style: none;
+
+}
+
+
+
+.comments-template ol li{
+
+	margin: 10px 0 0;
+
+	line-height: 18px;
+
+	padding: 0 0 10px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+
+.comments-template h2, .comments-template h3{
+
+	font-family: Georgia, Sans-serif;
+
+	font-size: 16px;
+
+}
+
+
+
+.commentmetadata{
+
+	font-size: 12px;
+
+}
+
+
+
+.comments-template p.nocomments{
+
+	padding: 0;
+
+}
+
+
+
+.comments-template textarea{
+
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+
+	font-size: 12px;
+
+}
